@@ -11,9 +11,7 @@ int main(){
 
     for(int i = 0; i < 5; i++){
         cin >> *(ptr+i);
-        cout << *(ptr+i) << ' ';
     }
-    cout << "\n";
 
    for(int i = 4; i >= 0; i--){
         cout << *(ptr+i) << ' ';
