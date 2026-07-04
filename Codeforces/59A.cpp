@@ -22,17 +22,11 @@ int main(){
         }
     }
 
-    if(lw > up){
+    if(lw > up || lw == up){
         for(int k = 0; k < a.size(); k++){
             a[k] = tolower(a[k]);
         }
     }
-
-    if(up == lw){
-        for(int l = 0; l < a.size(); l++){
-            a[l] = tolower(a[l]);
-        }
-    }
-
+    
     cout << a << "\n";
 }
