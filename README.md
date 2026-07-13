@@ -12,7 +12,8 @@ A collection of every problem I've solved, driven by the dream of representing m
 - Microsort C/C++<br>
 - Code Runner<br>
 - Competitive Programming Helper<br>
-### Compiler<br>
+### Compiler and Version <br>
 - GCC (MinGW)<br>
+- C++17<br>
 ### OS<br>
 - Windows 11 Home<br>
