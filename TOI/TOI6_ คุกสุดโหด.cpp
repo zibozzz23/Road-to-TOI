@@ -4,32 +4,27 @@ using namespace std;
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    
+
     int n, m;
     cin >> n >> m;
-    
-    list<int> a;
+
+    queue<int> q;
     for(int i = 1; i <= n; i++){
-        a.push_back(i);
+        q.push(i);
     }
-    auto ans = a.begin();
-    
-    while(a.size() > 0){
-        for(int i = 0; i < m-1; i++){
-            ans ++;
-                if(ans == a.end()){
-                ans = a.begin();
-                }   
-            }
-    cout << *ans << ' ';
-    ans = a.erase(ans);
-        if(ans == a.end()){
-        ans = a.begin();
+
+    while(!q.empty()){
+        for(int i = 1; i <= m-1; i++){
+            int rest = q.front();
+            q.pop();
+            q.push(rest);
         }
+        cout << q.front() << ' ';
+        q.pop();
     }
 }
-    
-// ได้ 50/100 ติด MLE เดี๋ยวมาแก้   
+
+// 50/100 ใข้ Linked List โดน MLE, แก้เป็น Queue ได้ 100/100
 /*
 8 4
 5 4
