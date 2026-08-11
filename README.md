@@ -14,6 +14,6 @@ A collection of every problem I've solved, driven by the dream of representing m
 - Competitive Programming Helper<br>
 ### Compiler and Version <br>
 - GCC G++ (MinGW)<br>
-- C++23<br>
+- C++23 (Submitting based on C++17)<br> 
 ### OS<br>
 - Windows 11 Home<br>
