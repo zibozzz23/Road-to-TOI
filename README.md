@@ -6,7 +6,7 @@ A collection of every problem I've solved, driven by the dream of representing m
 
 ## Editor, Extension, Compiler and OS<br>
 ### Editor<br>
-- VSCode<br> 
+- Visual Studio Code<br> 
 - programiz.com (C++)<br>
 ### Extension (for VSCode)<br>
 - Microsort C/C++<br>
